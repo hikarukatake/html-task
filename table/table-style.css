@@ -1,0 +1,32 @@
+@charset "utf-8";
+table,th,td{
+    border: solid 3px black;
+    border-collapse: collapse; 
+}
+th,td{
+    padding: 1px;
+}
+img{
+    width: 50%;
+    width: 300px;
+    height: 300px;
+}
+th{
+    margin: auto;
+    background-color: #80c3f5;
+    font-family: "Broadway","游明朝",serif;
+    background-image: url();
+    background-size: contain;
+}
+tbody{
+    margin: auto;
+    background-color: #8bd69b;
+    font-family: "Broadway","游明朝",serif;
+    background-image: url();
+    background-size: contain;
+
+}
+caption{
+    padding: 10px;
+    margin: 10px;
+}
