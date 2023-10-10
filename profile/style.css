@@ -1,0 +1,15 @@
+@charset "utf-8";
+body{
+    background-color: aqua;
+    font-family: "Goudy Stout", serif;
+    background-image: url(img/1660171734088.png) ;
+    background-size: 0%;
+}
+.text-yellow{
+    color:yellow;
+
+}
+span{
+    border: 10px dotted red;
+}
+
