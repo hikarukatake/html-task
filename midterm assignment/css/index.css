@@ -1,0 +1,19 @@
+@charset "utf-8";
+.o{
+    text-align: center;
+}
+body{
+    background-color: rgb(239, 227, 208);
+}
+.a{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.mawa{
+    float:right;
+}
+.toto{
+    display: flow-root;
+}

@@ -1,0 +1,17 @@
+/*記述済みの部分は変更しないでください！*/
+
+@charset "utf-8";
+
+.mark-list {
+    list-style: "★";
+}
+.m{
+    text-align: center;
+    font-size: 45px;
+}
+.b{
+    text-align: center;
+}
+body{
+    background-image: url(/self-introduction/self-img/59caef34-fd53-4193-8425-69b909cce8f9_base_resized.jpg)
+}

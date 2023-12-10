@@ -1,0 +1,94 @@
+@charset "utf-8";
+
+header,
+footer {
+    padding: 0.5em;
+    background-color: bisque;
+    width: 100%;
+}
+
+/* headerのnavのul */
+header nav ul {
+    display: flex;
+    /* リストマーカーなし */
+    list-style: none;
+    /* paddingなし */
+    padding: 0px;
+}
+
+header ul li {
+    /* textをcenter */
+    text-align: center;
+    /* textの幅 */
+    width: 20%;
+}
+
+header ul li a {
+    /* displau:blockでクリックできる範囲を広げた */
+    display: block;
+    padding: 0.5em;
+    /* 文字の色 */
+    color: rebeccapurple;
+    /* 下線なし */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* これ以上小さくならない */
+body {
+    min-width: 700px;
+    font-family: 'Yuji Syuku', serif;
+}
+header ul li + li{
+    border-left: 2px solid #072416;
+}
+.breadcrumbs {
+    /* 番号をなくす&横並び */
+    list-style: none;
+    display: flex;
+}
+.breadcrumbs li::after{
+    content: ">";
+    padding: 0 0.5rem;
+}
+.breadcrumbs li:last-child::after{
+    content: "";
+}
+.breadcrumbs li a:link{
+    color: blue;
+}
+.breadcrumbs li a:visited{
+    color: rebeccapurple;
+}
+.breadcrumbs li a:hover{
+    text-decoration: none;
+}
+.background{
+    background-image: url(../it/it-img/9f5ad681d9b8f0f70aad34862f65dd07_t.jpeg);
+    background-position: center;
+}
+.logo{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.26);
+}
+header img{
+    width: 30rem;
+    display: inline-block;
+}
+ul{
+    text-align: center;
+}
+.center{
+    /* width: 100px; */
+    /* margin: 10px; */
+    padding: 10px;
+    display: block;
+    justify-content: center;
+}
+.mannaka{
+    text-align: center;
+}
+div.lo{
+    justify-content: center;
+}
+

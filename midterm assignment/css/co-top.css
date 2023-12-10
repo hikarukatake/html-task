@@ -1,0 +1,42 @@
+@charset "utf-8";
+.bb{
+    width: 100%;
+}
+main{
+    width: 80%;
+    margin: 0 auto;
+    background-color: silver;
+}
+h1{
+    margin-bottom: 0.8rem;
+}
+.sen{
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border-bottom: 3px solid rgb(212, 145, 73);
+    border-top: 3px solid rgb(212, 145, 73);
+} 
+.sem{
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border-top: 3px solid rgb(212, 145, 73);
+}
+
+.isuraeru{
+    text-align: center;
+}
+body{
+    background-color: bisque;
+}
+header{
+    background-color: bisque;
+}
+.h{
+    background-image: url();
+}
+.mawa{
+    float:left;
+}
+.toto{
+    display: flow-root;
+}
