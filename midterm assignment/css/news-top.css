@@ -37,4 +37,10 @@ header{
 .toto{
     display: flow-root;
 }
+.a{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
 
