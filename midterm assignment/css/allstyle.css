@@ -42,27 +42,6 @@ body {
 header ul li + li{
     border-left: 2px solid #072416;
 }
-.breadcrumbs {
-    /* 番号をなくす&横並び */
-    list-style: none;
-    display: flex;
-}
-.breadcrumbs li::after{
-    content: ">";
-    padding: 0 0.5rem;
-}
-.breadcrumbs li:last-child::after{
-    content: "";
-}
-.breadcrumbs li a:link{
-    color: blue;
-}
-.breadcrumbs li a:visited{
-    color: rebeccapurple;
-}
-.breadcrumbs li a:hover{
-    text-decoration: none;
-}
 .background{
     background-position: center;
 }
