@@ -1,0 +1,273 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>FlexBox Exercise #3 - Image carousel / Responsive </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../css/cop.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="../main.js"></script>
+    </head>
+    
+    <body>
+        <div class="carousel">
+            <div class="carousel__nav">
+                <span id="moveLeft" class="carousel__arrow">
+                    <svg class="carousel__icon" width="24" height="24" viewBox="0 0 24 24">
+                        <path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z"></path>
+                    </svg>
+                </span>
+                <span id="moveRight" class="carousel__arrow">
+                    <svg class="carousel__icon" width="24" height="24" viewBox="0 0 24 24">
+                        <path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"></path>
+                    </svg>
+                </span>
+            </div>
+            <div class="carousel-item carousel-item--1">
+                <div class="carousel-item__image"></div>
+                <div class="carousel-item__info">
+                    <div class="carousel-item__container">
+                        <h2 class="carousel-item__subtitle">The grand moment </h2>
+                        <h1 class="carousel-item__title">Le tour</h1>
+                        <p class="carousel-item__description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                            accusantium doloremque laudantium, totam rem aperiam.</p>
+                        <a href="#" class="carousel-item__btn">Explore the tour</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item carousel-item--2">
+                <div class="carousel-item__image"></div>
+                <div class="carousel-item__info">
+                    <div class="carousel-item__container">
+                        <h2 class="carousel-item__subtitle">The big window </h2>
+                        <h1 class="carousel-item__title">Minimal window</h1>
+                        <p class="carousel-item__description">Clear Glass Window With Brown and White Wooden Frame iste
+                            natus error sit voluptatem accusantium doloremque laudantium.</p>
+                        <a href="#" class="carousel-item__btn">Read the article</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item carousel-item--3">
+                <div class="carousel-item__image"></div>
+                <div class="carousel-item__info">
+                    <div class="carousel-item__container">
+                        <h2 class="carousel-item__subtitle">Tropical palms </h2>
+                        <h1 class="carousel-item__title">Palms</h1>
+                        <p class="carousel-item__description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                            accusantium doloremque laudantium, totam rem aperiam.</p>
+                        <a href="#" class="carousel-item__btn">Explore the palms</a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="carousel-item carousel-item--4">
+                <div class="carousel-item__image"></div>
+                <div class="carousel-item__info">
+                    <div class="carousel-item__container">
+                        <h2 class="carousel-item__subtitle">Beach </h2>
+                        <h1 class="carousel-item__title">The beach </h1>
+                        <p class="carousel-item__description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                            accusantium doloremque laudantium, totam rem aperiam.</p>
+                        <a href="#" class="carousel-item__btn">Explore the beach</a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="carousel-item carousel-item--5">
+                <div class="carousel-item__image"></div>
+                <div class="carousel-item__info">
+                    <div class="carousel-item__container">
+                        <h2 class="carousel-item__subtitle">The white building </h2>
+                        <h1 class="carousel-item__title">White building</h1>
+                        <p class="carousel-item__description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                            accusantium doloremque laudantium, totam rem aperiam.</p>
+                        <a href="#" class="carousel-item__btn">Read the article</a>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    </body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>会社説明</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/cop.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="headerdiv">
+            <nav>
+                <div class="logo">
+
+                </div>
+
+                <ul class="navi">
+                    <li class="HOME"><a href="../index.html" class="enn">HOME</a></li>
+                    <li class="HOME"><a href="#" class="enn">会社情報</a></li>
+                    <li class="HOME"><a href="../Recruitment information/recinfo.html" class="enn">採用情報</a></li>
+                    <div class="ms"><a href="https://www.systembase.co.jp/">株式会社システムベース</a></div>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <p class="teian"> 多彩なサービスの中から、お客様に最適なものを<br>&emsp;&thinsp;ご提案いたします。</p>
+        <div class="work">
+            <div class="work2">
+                <p>INTEGRATION</p>
+            </div>
+            <div class="work3">
+                <h3>多種多様なサービスから <br>お客様のニーズに最適なものを融合・構築した情報システムで <br>業務の効率化をご提案します</h3>
+
+            </div>
+            <div class="Typeofwork">
+                <ul class="ul1">
+                    <h2 class="h2-1">▼<br>DISTRIBUTION <br>流通業<br><img src="../img/gyousyu1.svg" alt="流通業"></h2>
+                    <h2 class="h2-1">▼<br>RETAILING <br>小売業<br><img src="../img/gyousyu2.svg" alt="小売業"></h2>
+                    <h2 class="h2-1">▼<br>MANUFACTURING <br>製造業<br><img src="../img/gyousyu3.svg" alt="製造業"></h2>
+                    <h2 class="h2-1">▼<br>CONSTRUCTION <br>建設業<br><img src="../img/gyousyu4.svg" alt="建設業"></h2>
+                    <h2 class="h2-1">▼<br>MEDICAL <br>医療<br><img src="../img/gyousyu5.svg" alt="医療"></h2>
+                    <h2 class="h2-1">▼<br>PUBLIC&thinsp;SERVICE <br>公共<br><img src="../img/gyousyu6.svg" alt="公共"></h2>
+                    <h2 class="h2-1">▼<br>EDUCATION <br>文教<br><img src="../img/gyousyu7.svg" alt="文教"></h2>
+                </ul>
+            </div>
+            <div class="Typeofwork1">
+                <ul class="ul2">
+                    <div class="block">
+                        <a href="https://www.systembase.co.jp/obc/" class="atagu"><h2 class="h2-img"><img src="../img/kaikei.png" alt="kaikei" class="gazou"><br>業務パッケージ
+                            <br>OBC奉公シリーズ
+                        </h2>
+                        <h2 class="h2-2">奉公シリーズは、 <br>企業の主要な業務に幅広く対応し、 <br>企業全体の生産向上に <br>貢献します</h2>
+                    </a>
+                    </div>
+                    <div class="block">
+                        <a href="https://www.systembase.co.jp/%e7%94%b3%e8%ab%8b%e3%83%bb%e6%89%bf%e8%aa%8d%e3%81%ae%e3%83%af%e3%83%bc%e3%82%af%e3%83%95%e3%83%ad%e3%83%bc%e3%80%8cx-point-cloud%e3%80%8d/" class="atagu"><h2 class="h2-img"><img src="../img/kuma.jpeg" alt="denshi_kessai"
+                                class="gazou"><br>申請・承認のワークフロー<br>「X-Point cloud」
+                        </h2>
+                        <h2 class="h2-2">従来の神のデザイン・運用を維持しながら、<br>申請・承認業務を電子化し、 <br>効率的に運用することができます</h2>
+                    </a>
+                    </div>
+                    <div class="block">
+                        <a href="https://www.systembase.co.jp/rpa%ef%bc%88%e6%a5%ad%e5%8b%99%e8%87%aa%e5%8b%95%e5%8c%96%e3%82%bd%e3%83%aa%e3%83%a5%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%ef%bc%89-winactor/" class="atagu">
+                        <h2 class="h2-img"><img src="../img/rpa_icon.png" alt="rpa_icon" class="gazou"><br>RPA
+                            <br>WinActor
+                        </h2>
+                        <h2 class="h2-2">「WinActor」は、国内シェアNo.1の国産RPA。 <br>日々の業務を自動化、 <br>業務の属人化を解消いたします。</h2>
+                    </a>
+                    </div>
+
+                    <div class="block">
+                        <a href="https://www.systembase.co.jp/%e5%9c%9f%e5%9c%b0%e6%94%b9%e8%89%af%e5%8c%ba-%e4%bc%9a%e8%a8%88%e6%a5%ad%e5%8b%99%e3%82%b7%e3%82%b9%e3%83%86%e3%83%a0/" class="atagu">
+                        <h2 class="h2-img"><img src="../img/service11.png" alt="service"
+                                class="gazou"><br>土地改良区<br>会計業務システム</h2>
+                        <h2 class="h2-2">新会計基準に対応した複式会計業務を&ensp;<br>サポート</h2>
+                    </a>
+                    </div>
+                    <div>
+                        <a href="https://www.systembase.co.jp/service26/" class="atagu">
+                        <h2 class="h2-img"><img src="../img/service26.svg" alt="service26"
+                                class="gazou"><br>生産管理システム<br>Telegno-SYS
+                        </h2>
+                        <h2 class="h2-2">使いやすいMRP機能を有した <br>シンプルな機能の生産管理システム。 <br>更なる業務改革を等システムが実現します。</h2>
+                    </a>
+
+                    </div>
+                </ul>
+                <ul class="ul3">
+                    <div>
+                        <a href="https://www.systembase.co.jp/rapidreport/" class="atagu">
+                        <h2 class="h2-img"><img src="../img/service1.png" alt="service1"
+                                class="gazou"><br>開発者向け帳票ツール<br>RepidReport
+                        </h2>
+                        <h2 class="h2-2">RapidReport(ラピッドレポート)は <br>Javaまたは.NETから使える帳票ツールです。&thinsp;&emsp; <br>複雑な帳票も簡単に作成できます。</h2>
+                    </a>
+                    </div>
+                    <div>
+                        <a href="https://rapidreport.systembase.co.jp/runner/" class="atagu">
+                        <h2 class="h2-img"><img src="../img/service02.png" alt="service02"
+                                class="gazou"><br>プログラムレス&thinsp; レポートツール<br>RapidReportRunner
+                        </h2>
+                        <h2 class="h2-2">RapidReportRunner <br>(ラピッドレポートランナー)は基幹システムの&thinsp;&emsp;<br>DBやExcelをもとに様々な帳票を <br>作成できるツールです。</h2>
+                    </a>
+                    </div>
+                    <div>
+                        <a href="https://www.systembase.co.jp/service04/" class="atagu">
+                        <h2 class="h2-img"><img src="../img/service04.png" alt="service1" class="gazou"><br>医療ソリューション
+                        </h2>
+                        <h2 class="h2-2">電子カルテ・医事システム他、 <br>医療機関様の規模やニーズに併せた&ensp;&emsp;<br>ソリューションをご提案します。</h2>
+                    </a>
+                    </div>
+                    <div>
+                        <a href="https://www.systembase.co.jp/service05/" class="atagu">
+                        <h2 class="h2-img"><img src="../img/service05.png" alt="service05" class="gazou"><br>総合販売管理システム <br>TOREOS
+                        </h2>
+                        <h2 class="h2-2">中堅企業向けの、 <br>販売管理に関する基本業務を <br>効率的かつ高品質に実現する <br>パッケージアプリです。</h2>
+                    </a>
+                    </div>
+                    <div>
+                        <a href="https://qoopon.systembase.co.jp/" class="atagu">
+                        <h2 class="h2-img"><img src="../img/service06.png" alt="service06" class="gazou"><br>商品券管理システム<br>QooPon
+                        </h2>
+                        <h2 class="h2-2">QooPon(くうポン)は、 <br>商品券の発行業務や回収業務を簡単、 <br>正確に管理するためのアプリケーションです。
+                        </h2>
+                    </a>
+                    </div>
+                </ul>
+            </div>
+        </div>
+        <div class="coi">
+            <h1>システムベースについて</h1>
+            <h4>当社は、創業当時からデータセンターを持ち、300社以上にネットワークでのサービスを提供してきた強みを生かし、クラウドサービスの拡大に力を入れております。
+
+ 
+
+                また、システムインテグレータとしてお客様のニーズにあった情報システムを企画から設計・開発、運用まで一貫して担っております。
+                
+                社内の円滑な人間関係が、お客様とのコミュニケーションにも繋がるとの考えから、｢明るく、楽しく｣｢全員主役、全員脇役｣をモットーに、日々の業務を進めております。
+                
+                常にお客様に最良の品質を提供していくために、全社一丸となって製品、技術、サービスの向上に努めており、お客様の「信頼と満足」をより向上させる活動を行なっております。</h4>
+        </div>
+    </main>
+    <footer>
+        <div class="fooo">
+            <div class="footernav">
+                <ul class="navifo">
+                    <li class="foo"><a href="#" class="oo">HOME</a></li>
+                    <li class="foo"><a href="https://www.systembase.co.jp/service/">サービス</a></li>
+                    <li class="foo"><a href="https://www.systembase.co.jp/about/">会社概要</a></li>
+                    <li class="foo"><a href="https://www.systembase.co.jp/contact/">お問い合わせ</a></li>
+                    <li class="foo"><a href="https://www.systembase.co.jp/about/site/">サイトの利用</a></li>
+                    <li class="foo"><a href="https://www.systembase.co.jp/about/privacy/">個人情報保護</a></li>
+                    <li class="foo"><a href="https://www.systembase.co.jp/about/security/">セキュリティ方針</a></li>
+                </ul>
+
+            </div>
+            <div class="twi">
+                <h3 class="mori">盛岡情報ビジネス＆デザイン専門学校</h3>
+                <div class="imagee">
+                    <a href="https://www.youtube.com/channel/UCVGbINOPU_aeARGmlx2g_xQ/videos"><img
+                            src="../img/youtube.png" alt="youtube" class="imgg"></a>
+                    <a href="https://www.instagram.com/morijyobi_official/"><img src="../img/innsuta.png"
+                            alt="innsutaguramu" class="imgg"></a>
+                    <a href="https://twitter.com/morijyobi_olive"><img src="../img/x.png" alt="x" class="imgg"></a>
+                    <a href="https://morijyobi.ac.jp/"><img src="../img/jyobijyobi.png" alt="jyobi" class="imgg"></a>
+
+                    <a href="https://www.facebook.com/morijyobi/?locale=ja_JP"><img src="../img/fasebook.png"
+                            alt="fasebook" class="imgg"></a>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

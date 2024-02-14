@@ -1,0 +1,58 @@
+body{
+    background-image: url(../img/シンプルなお花の背景1.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% auto;
+    height: 10%;
+
+}
+main{
+    font-weight: bold;
+    font-family: "遊ゴシック",sans-serif;
+}
+.re{
+    height: 100%;
+}
+.rere{
+    width: auto;
+    height: auto;
+    display: block;
+    margin-left: 200px;
+    margin-top: 200px;
+}
+.re1{
+    width: auto;
+    height: auto;
+    font-size: 17px;
+    font-weight: bold;
+}
+.re2{
+    text-align: center;
+    width: 900px;
+
+    background-color: #cbf3f0
+}
+.re3{
+    font-size: 20px;
+    width: 200px;
+    height: auto;
+}
+.re4{
+    font-size: 20px;
+}
+.rerere{
+    display: flex;
+    width: 700px;
+    height: 80px;
+    border-bottom: 1px solid black;
+}
+.rererere{
+    display: flex;
+    width: 700px;
+    height: 150pxpx;
+    border-bottom: 1px solid black;
+}
+.tt{
+    border-top: 70px;
+}
